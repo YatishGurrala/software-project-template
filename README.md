@@ -14,12 +14,13 @@ This template provides a lightweight, living documentation framework that keeps 
 
 ## What's Included
 
+- **[NEW_PROJECT_BOOTSTRAP.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/NEW_PROJECT_BOOTSTRAP.md)** — First-run checklist for newly spawned projects, guiding Git state verification, branch inspection, and document initialization.
 - **[AGENTS.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/AGENTS.md)** — Core operating rules, engineering principles, context-loading orders, and Definition of Done for AI coding assistants.
 - **[PRODUCT_FEATURES.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/PRODUCT_FEATURES.md)** — Living source of truth for product capabilities, feature status, and priority matrices.
 - **[ARCHITECTURE.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/ARCHITECTURE.md)** — Real-time documentation of the system's actual (not aspirational) architecture, modules, and security postures.
 - **[CURRENT_TASK.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/CURRENT_TASK.md)** — Active workstream tracker defining current scope, out-of-scope items, implementation plan, and validation criteria.
 - **[DECISIONS.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/DECISIONS.md)** — Immutable architectural and technical decision log (ADR) recording context, choices, and trade-offs.
-- **[RELEASE_PROCESS.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/RELEASE_PROCESS.md)** — Generic branch hierarchy, release checklists, promotion gates, and rollback policies.
+- **[RELEASE_PROCESS.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/RELEASE_PROCESS.md)** — Standard `dev → main → prod` branch hierarchy, release checklists, promotion gates, and rollback policies.
 - **[.github/pull_request_template.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/.github/pull_request_template.md)** — Standardized PR template enforcing documentation synchronization and validation checks.
 
 ---
@@ -28,13 +29,11 @@ This template provides a lightweight, living documentation framework that keeps 
 
 To spin up a new software project using this template:
 
-1. **Use this Template:** Click "Use this template" on GitHub to create a new repository.
-2. **Replace Placeholder Content:** Review each markdown file and replace generic placeholders with your project's specific details.
-3. **Define Product Vision:** Populate [PRODUCT_FEATURES.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/PRODUCT_FEATURES.md) with initial planned capabilities (`PLANNED`, `IDEA`).
-4. **Document Initial Architecture:** Fill in [ARCHITECTURE.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/ARCHITECTURE.md) with your target stack, data models, and directory structure.
-5. **Confirm Branch Strategy:** Verify or customize the default `dev → main → prod` branch workflow in [RELEASE_PROCESS.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/RELEASE_PROCESS.md).
-6. **Set First Task:** Initialize [CURRENT_TASK.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/CURRENT_TASK.md) with the first concrete engineering task (such as repository initialization or baseline scaffolding).
-7. **Orient the Agent:** Direct your AI coding assistant to read [AGENTS.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/AGENTS.md) before executing code changes.
+1. **Create Repository:** Create a repository using this GitHub template.
+2. **Include All Branches:** Select **"Include all branches"** when creating the repository so the standard `dev`, `main`, and `prod` branches are copied into the new repository.
+3. **Open Bootstrap Guide:** Open [NEW_PROJECT_BOOTSTRAP.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/NEW_PROJECT_BOOTSTRAP.md).
+4. **Orient the Agent:** Give its instructions to the coding agent before implementation begins.
+5. **Verify Branches & Release Flow:** Verify branch and history state before using the normal `dev → main → prod` release workflow.
 
 ---
 
@@ -43,7 +42,7 @@ To spin up a new software project using this template:
 When kicking off work with an AI agent in a newly created project repository, start with:
 
 ```text
-Read AGENTS.md and all project documentation. Inspect the repository before making changes. Update the project documentation to accurately describe this project's current state. Do not implement new features until the project baseline is understood.
+Read AGENTS.md, NEW_PROJECT_BOOTSTRAP.md, and all project documentation. Inspect the repository before making changes. Follow the bootstrap checklist to accurately describe this project's current state. Do not implement new features until the project baseline is understood.
 ```
 
 ---

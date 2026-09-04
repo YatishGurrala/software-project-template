@@ -14,6 +14,7 @@ Before making meaningful changes, inspect and read the relevant project context 
 4. **[CURRENT_TASK.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/CURRENT_TASK.md)** — Active workstream, scope, and acceptance criteria.
 5. **[DECISIONS.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/DECISIONS.md)** — Historical architecture and product decisions.
 6. **[RELEASE_PROCESS.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/RELEASE_PROCESS.md)** — Branching hierarchy and release discipline (read whenever branching, merging, or releasing).
+7. **[NEW_PROJECT_BOOTSTRAP.md](file:///Users/yatishgurrala/Desktop/PersonalDocs/Side%20hustle/software-project-template/NEW_PROJECT_BOOTSTRAP.md)** — First-run onboarding checklist (read when initializing a new repository from this template).
 
 ---
 
